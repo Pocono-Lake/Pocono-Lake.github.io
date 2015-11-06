@@ -1,5 +1,5 @@
 ---
-laout: news
+layout: news-article
 title: hi again world
 meta: second post
 source: http://plp.cc

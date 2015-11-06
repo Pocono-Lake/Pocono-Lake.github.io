@@ -1,5 +1,5 @@
 ---
-laout: news
+layout: news-article
 title: hello world
 meta: first post
 source: http://plp.cc
