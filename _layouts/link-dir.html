@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<strong>Some of our favorite links</strong>
+
+<nav>
+  <ul>
+    {% for link-type in site.data.link-dir %}
+      <li>
+        <a href="{{site.baseurl}}/link-dir/{{link-type.folder}}/" class="{% if page.purl contains link-type.folder %}current{% endif %}">{{link-type.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
+
+{{content}}

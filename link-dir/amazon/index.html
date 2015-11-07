@@ -1,0 +1,10 @@
+---
+layout: link-dir
+---
+<ul>
+  {% for link-type in site.data.link-dir %}
+    <li>
+      <a href="{{amazon.source}}">{{amazon.title}}</a>
+    </li>
+  {% endfor %}
+</ul>
